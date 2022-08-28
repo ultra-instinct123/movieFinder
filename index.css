@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Sans-Serif;
+    background-color: #66CDAA;
+}
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    background-color: #191970;
+    padding: 20px;
+    text-align: center;
+}
+.full-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-input {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid grey;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.movie-cards {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(24,51,59);
+    margin: 20px;
+    padding: 30px;
+}
+.value {
+    font-size: 15px;
+    width: 100px;
+}
+.movie-title {
+    font-family: Sans-Serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px 70px;
+}
+.search {
+    border: none;
+    outline: none;
+    background-color: rgb(19,19,56);
+    padding: 10px 20px;
+    color: white;
+    font-family: Times New Roman;
+}
